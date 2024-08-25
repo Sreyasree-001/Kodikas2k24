@@ -1,0 +1,32 @@
+.Navbar {
+    text-align: center;
+    border: 1px solid red;
+}
+
+.Countdown {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.Rounds {
+    display: flex;
+}
+
+.Round {
+    flex-basis: 100%;
+    text-align: center;
+    border: 1px solid rebeccapurple;
+}
+
+.Registration {
+    text-align: center;
+    border: 1px solid yellow;
+}
+
+.Footer {
+    border: 1px solid green;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
