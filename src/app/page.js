@@ -1,23 +1,29 @@
+/*import {motion} from 'framer-motion';
+import {fadeIn} from '../app/variants.js';*/
+
 import Head from 'next/head';
 import Image from 'next/image';
-
+import background from '../../public/bg.jpg';
+import logo from '../../public/logo.png';
 import Navbar from './Components/Navbar/Navbar';
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      
-      
-      <main className="bg-violet-800 flex flex-col items-center justify-center min-h-screen py-10">
-        <h1 className="text-blue-50 text-4xl font-bold mb-4">Kodikas2K24</h1>
-        <p className="text-lg text-violet-300 mb-6">Organized by CSE</p>
+      <main className="flex flex-col items-center justify-center min-h-screen py-10">
+        <div className="absolute -z-10 w-full">
+          <Image src={background} alt="background image" className="w-full" width={1000} height={1000}/>
+        </div>
+        <Image src={logo} width={600} alt="logo" className='w-84'/>
+        <p className="text-lg text-violet-100 mb-6">Organized by Computer Science & Engineering Department</p>
         <button
           onClick={'About Us'}
-          className="bg-gradient-to-r from-purple-400 to-blue-400 hover:from-pink-300 hover:to-blue-50 text-white w-32 font-sans py-2 px-4 rounded-2xl focus:outline-none focus:shadow-outline w-1/2"
+          className="border border-slate-300 hover:border-slate-400 text-white w-32 font-sans py-2 px-4 rounded-2xl focus:outline-none focus:shadow-outline w-1/2"
         >
           Explore Now
         </button>
+        
       </main>
 
       <footer className="flex items-center justify-center py-4 border-t mt-10">

@@ -19,7 +19,7 @@
 body {
   padding : 0;
   margin : 0;
-  background-image: url(../app/bg.jpg);
+  background-image: url(../public/bg.jpg);
 }
 */
 @layer utilities {
