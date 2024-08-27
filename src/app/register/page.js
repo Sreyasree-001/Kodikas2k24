@@ -1,6 +1,45 @@
+'use client'
+
+import { useState } from "react";
 import Navbar from "../Components/Navbar/Navbar";
+// import { baseURL } from "../baseURL";
+// import axios from "axios";
 
 export default function register() {
+    const [data, setData] = useState({
+        teamname: "",
+        name1: "",
+        email1: "",
+        phone1: "",
+        name2: "",
+        email2: "",
+        phone2: "",
+        mode: ""
+    })
+    const [uid, setUid] = useState("")
+
+    const handleChange = (e) => {
+        let name = e.target.name
+        let value = e.target.value
+        setData(vals => ({...vals, [name]: value}))
+    }
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        console.log(data)
+        // let resp = await axios({
+        //     url: baseURL,
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     method: 'POST',
+        //     data: formData
+        // });
+        // if (resp.status) {
+        //     setUid(resp.data.UID);
+        // }
+    }
+
     return (
         <>
             <Navbar/>
@@ -8,55 +47,46 @@ export default function register() {
                 <form>
                     <div>
                         <label htmlFor="username">Team Name: </label>
-                        <input id="username" type="text" name="username"></input>
-                    </div>
-                    <div>
-                        <label htmlFor="username">Password: </label>
-                        <input id="password" type="password" name="password"></input>
+                        <input className="border border-slate-700" id="username" type="text" name="teamname" onChange={handleChange}></input>
                     </div>
                     <div>
                         Member 1 Details:
                         <div>
                             <label htmlFor="name">Name: </label>
-                            <input id="name1" type="text" name="name"></input>
+                            <input className="border border-slate-700" id="name1" type="text" name="name1" onChange={handleChange}></input>
                         </div>
                         <div>
                             <label htmlFor="email">Email: </label>
-                            <input id="email1" type="email" name="email"></input>
+                            <input className="border border-slate-700" id="email1" type="email" name="email1" onChange={handleChange}></input>
                         </div>
                         <div>
                             <label htmlFor="phone">Phone: </label>
-                            <input id="phone1" type="number" name="Phone"></input>
+                            <input className="border border-slate-700" id="phone1" type="number" name="phone1" onChange={handleChange}></input>
                         </div>
                     </div>
                     <div>
                         Member 2 Details:
                         <div>
                             <label htmlFor="name">Name: </label>
-                            <input id="name1" type="text" name="name"></input>
+                            <input className="border border-slate-700" id="name2" type="text" name="name2" onChange={handleChange}></input>
                         </div>
                         <div>
                             <label htmlFor="email">Email: </label>
-                            <input id="email1" type="email" name="email"></input>
+                            <input className="border border-slate-700" id="email2" type="email" name="email2" onChange={handleChange}></input>
                         </div>
                         <div>
                             <label htmlFor="phone">Phone: </label>
-                            <input id="phone1" type="number" name="Phone"></input>
+                            <input className="border border-slate-700" id="phone2" type="number" name="phone2" onChange={handleChange}></input>
                         </div>
                     </div>
                     <div>
                         <label htmlFor="payment">Payment Mode: </label>
-                        <select>
+                        <select className="border border-slate-700" name="mode" onChange={handleChange}>
                             <option value="offline">Offline</option>
                             <option value="online">Online</option>
                         </select>
                     </div>
-                    <div>
-                        <button 
-                            className="bg-gradient-to-r from-purple-400 to-blue-400 hover:from-pink-300 hover:to-blue-50 text-white w-30 font-sans py-2 px-4 rounded-2xl focus:outline-none focus:shadow-outline w-1/2">
-                                Register Now
-                        </button>
-                    </div>
+                    <button className="border border-slate-700 bg-green-400" type="submit" onClick={handleSubmit}>Register Now</button>
                 </form>
             </main>
         </>
