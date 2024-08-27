@@ -1,12 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar/Navbar';
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
+      
       
       <main className="bg-violet-800 flex flex-col items-center justify-center min-h-screen py-10">
         <h1 className="text-blue-50 text-4xl font-bold mb-4">Kodikas2K24</h1>
