@@ -22,6 +22,9 @@ body {
   background-image: url(../public/bg.jpg);
 }
 */
+*{
+  scroll-behavior: smooth;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
