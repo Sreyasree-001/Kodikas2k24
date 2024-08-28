@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <Navbar/>
       <main className="flex flex-col items-center justify-center min-h-screen py-10">
-        <div className="absolute -z-10 w-full">
+        <div className="absolute inset-0 -z-10">
           <Image src={background} alt="background image" className="w-full" width={1000} height={1000}/>
         </div>
         <Image src={logo} width={600} alt="logo" className='w-84'/>
