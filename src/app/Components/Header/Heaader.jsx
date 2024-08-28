@@ -2,7 +2,7 @@
 const Header = () => {
   return (
     <div className="lg:mt-2 px-4 py-16 mx-auto  md:max-w-full  lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 lg:mb-28
-    bg-[url('/backpic.jpg')] bg-cover flex flex-col items-center justify-center">
+    bg-[url('/homeback.jpg')] bg-cover flex flex-col items-center justify-center">
       <div className="max-w-xl lg:max-w-2xl">
         <div className="flex flex-col items-center justify-center mb-16 text-center sm:mb-0">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
