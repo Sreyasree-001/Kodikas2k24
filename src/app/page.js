@@ -1,9 +1,6 @@
 /*import {motion} from 'framer-motion';
 import {fadeIn} from '../app/variants.js';*/
 
-
-import Link from 'next/link';
-
 import Navbar from './Components/Navbar/Navbar';
 import AboutUs from './Components/AboutEvent';
 import Contact from './Components/Contact';
