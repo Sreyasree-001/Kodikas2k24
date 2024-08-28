@@ -1,21 +1,12 @@
 'use client'
 
 import { useState } from "react";
-import Navbar from "../Components/Navbar/Navbar";
+import Navbar from "../Components/Header/Navbar/Navbar";
 // import { baseURL } from "../baseURL";
 // import axios from "axios";
 
 export default function register() {
-    const [data, setData] = useState({
-        teamname: "",
-        name1: "",
-        email1: "",
-        phone1: "",
-        name2: "",
-        email2: "",
-        phone2: "",
-        mode: ""
-    })
+    const [data, setData] = useState({})
     const [uid, setUid] = useState("")
 
     const handleChange = (e) => {
@@ -44,8 +35,8 @@ export default function register() {
         <>
             <Navbar/>
             <main className="bg-slate-900 flex flex-col items-center justify-center min-h-screen py-10">
-                <div class="mx-auto relative overflow-hidden z-10 bg-gray-800 p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
-                <h2 class="text-2xl font-bold text-white mb-6">Register Here</h2>
+                <div className="mx-auto relative overflow-hidden z-10 bg-gray-800 p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
+                <h2 className="text-2xl font-bold text-white mb-6">Register Here</h2>
                 <form>
                     <div className="mb-4">
                         <label htmlFor="username" className="block text-sm font-medium text-gray-300">Team Name</label>
@@ -97,8 +88,8 @@ export default function register() {
                     </span>
                     <div className="ease-in duration-300 opacity-0 group-hover:block group-hover:opacity-100 transition-all">
                     <div className="ease-in-out duration-500 -translate-y-4 pointer-events-none transition-all group-hover:-translate-y-16 absolute left-1/2 z-50 flex -translate-x-1/2 flex-col items-center rounded-sm text-center text-sm text-slate-300 before:-top-2">
-                    <div class="rounded-sm bg-black py-1 px-2">
-                    <p class="whitespace-nowrap">Click Here!</p>
+                    <div className="rounded-sm bg-black py-1 px-2">
+                    <p className="whitespace-nowrap">Click Here!</p>
                     </div>
                     <div
                     className="h-0 w-fit border-l-8 border-r-8 border-t-8 border-transparent border-t-black"></div>

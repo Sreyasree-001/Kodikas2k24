@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 // import axios from "axios"
-import Navbar from "../Components/Navbar/Navbar";
+import Navbar from "../Components/Header/Navbar/Navbar";
 // import { baseURL } from "../baseURL";
 
 export default function login() {
