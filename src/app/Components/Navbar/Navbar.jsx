@@ -6,8 +6,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div class="bg-gray-900 bg-opacity-70">
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div class="md:bg-gray-900  md:bg-opacity-70">
+      <div class="px-4 py-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-12 lg:py-2">
         <div class="relative flex items-center md:justify-center">
           <ul class="flex items-center hidden space-x-8 md:flex">
             <li>
@@ -84,8 +84,8 @@ const Navbar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div class="absolute top-0 left-0 w-full">
-                <div class="p-5 bg-white border rounded shadow-sm">
+              <div class="absolute top-0 left-0 w-screen">
+                <div class="p-4 w-11/12 mr-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
                       <button

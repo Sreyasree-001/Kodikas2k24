@@ -1,6 +1,6 @@
 export default function AboutEvent() {
     return (
-        <div id="about-event">
+        <div className=" text-gray-200" id="about-event">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat turpis sed accumsan porta. Ut id euismod augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse ut tincidunt sem. Ut pretium suscipit libero, sit amet pretium dui ultricies in. Duis sit amet egestas leo. Phasellus at purus et turpis malesuada rutrum. Vestibulum facilisis vitae ligula sed maximus. Maecenas eu nunc pretium, vehicula nulla iaculis, imperdiet mauris. Duis quis odio in elit interdum scelerisque. Sed vel efficitur ligula. Maecenas finibus, erat sit amet hendrerit aliquet, purus mauris bibendum orci, vel mollis nisi nisl vel metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean nec euismod risus, at elementum elit. Duis pharetra nibh vulputate, convallis magna id, egestas magna. Etiam eu luctus ante.
             </p><br/>

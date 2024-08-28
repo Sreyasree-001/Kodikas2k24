@@ -27,7 +27,7 @@ export default function Contact() {
     }
 
     return (
-        <form>
+        <form className="text-white">
             <div id="contact">
                 <label htmlFor="username">Name</label>
                 <input className="border border-slate-700" id="username" type="text" name="name" onChange={handleChange}></input>
