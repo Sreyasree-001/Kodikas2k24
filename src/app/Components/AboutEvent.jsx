@@ -1,5 +1,6 @@
 const AboutEvent = () => {
     return (
+      
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-20 lg:px-5 lg:py-50 bg-[url('/bg2.jpg')] bg-cover flex flex-col items-center justify-center">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>

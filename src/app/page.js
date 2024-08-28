@@ -12,9 +12,11 @@ export default function Home() {
       <div className='fixed md:self-center'><Navbar/></div>
       <div className=''>
       <Header/>
+      
       </div>
       <AboutUs/>
       <Contact/>
+      
       <footer className="flex items-center justify-center py-4 border-t mt-10">
         <p className="text-gray-500">© All rights reserved.</p>
       </footer>
