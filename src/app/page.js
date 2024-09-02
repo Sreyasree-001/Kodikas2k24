@@ -5,6 +5,8 @@ import Navbar from './Components/Header/Navbar/Navbar';
 import AboutUs from './Components/AboutEvent';
 import Contact from './Components/Contact';
 import Header from './Components/Header/Heaader';
+import Gallery from './Components/Gallery';
+import Comittees from './Components/Committees';
 
 export default function Home() {
   return (
@@ -12,11 +14,11 @@ export default function Home() {
       <div className='fixed md:self-center z-10'><Navbar/></div>
       <div className=''>
         <Header/>
-        
-        </div>
+      </div>
         <AboutUs/>
-        <Contact/>
-        
+        <Gallery/>
+        <Comittees/>
+
         <footer className="flex items-center justify-center py-4 border-t mt-10">
           <p className="text-gray-500">© All rights reserved.</p>
         </footer>
