@@ -7,6 +7,8 @@ import Contact from './Components/Contact';
 import Header from './Components/Header/Heaader';
 import Gallery from './Components/Gallery';
 import Comittees from './Components/Committees';
+import Sponsors from './Components/Sponsors';
+import Footer from './Components/Footer';
 
 export default function Home() {
   return (
@@ -18,10 +20,9 @@ export default function Home() {
         <AboutUs/>
         <Gallery/>
         <Comittees/>
-
-        <footer className="flex items-center justify-center py-4 border-t mt-10">
-          <p className="text-gray-500">© All rights reserved.</p>
-        </footer>
+        <Sponsors/>
+        <Contact/>
+        <Footer/>
     </div>
   );
 }
