@@ -5,7 +5,9 @@ export default function Gallery() {
     return (
         <>
             <div className="gallery">
-                <h2>Gallery</h2>
+                <div className="title">
+                    <h2>Gallery</h2>
+                </div>
                 <div className="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item">
@@ -24,6 +26,14 @@ export default function Gallery() {
                             <img src="/Gallery/5.jpg" height={300} width={400} alt="Image 4"/>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="teaser">
+                <video autoPlay muted controls preload loop>
+                    <source src="/Gallery/teaser.mp4"></source>
+                </video>
+                <div className="title">
+                    <h2>Trailer</h2>
                 </div>
             </div>
         </>
