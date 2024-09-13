@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Navbar from "../Components/Header/Navbar/Navbar";
+import Footer from "../Components/Footer";
 // import { baseURL } from "../baseURL";
 // import axios from "axios";
 
@@ -99,6 +100,7 @@ export default function register() {
                 </form>
                 </div>
             </main>
+            <Footer/>
         </>
     )
 }
