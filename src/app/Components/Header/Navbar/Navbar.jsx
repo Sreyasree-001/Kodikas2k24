@@ -27,7 +27,27 @@ const Navbar = (props) => {
                 title="About Event"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                About event
+                About event (Coming Soon)
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#gallery"
+                aria-label="Gallery"
+                title="Gallery"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#committee"
+                aria-label="Committee"
+                title="Committee"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Team & Sponsors
               </a>
             </li>
             <li>
@@ -123,6 +143,26 @@ const Navbar = (props) => {
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           About event
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/#gallery"
+                          aria-label="Gallery"
+                          title="Gallery"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Gallery
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/#committee"
+                          aria-label="Committee"
+                          title="Committee"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Team & Sponsors
                         </a>
                       </li>
                       <li>

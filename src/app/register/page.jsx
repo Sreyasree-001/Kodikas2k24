@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Navbar from "../Components/Header/Navbar/Navbar";
 import Footer from "../Components/Footer";
-// import { baseURL } from "../baseURL";
-// import axios from "axios";
+import { baseURL } from "../baseURL";
+import axios from "axios";
 
 export default function register() {
     const [data, setData] = useState({})
@@ -19,17 +19,17 @@ export default function register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log(data)
-        // let resp = await axios({
-        //     url: baseURL,
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     },
-        //     method: 'POST',
-        //     data: formData
-        // });
-        // if (resp.status) {
-        //     setUid(resp.data.UID);
-        // }
+        let resp = await axios({
+            url: baseURL,
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            method: 'POST',
+            data: data
+        });
+        if (resp.status) {
+            setUid(resp.data.UID);
+        }
     }
 
     return (

@@ -17,10 +17,10 @@ export default function Home() {
       <div className=''>
         <Header/>
       </div>
-        <AboutUs/>
+        {/* <AboutUs/> */} 
         <Gallery/>
         <Comittees/>
-        <Sponsors/>
+        {/* <Sponsors/> */}
         <Contact/>
         <Footer/>
     </div>
