@@ -11,254 +11,265 @@ export default function Comittees() {
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg text-gray-50 font-bold">Sanchari Karati</p>
-            <p className="text-sm text-gray-300">3rd Year CSE</p>
+            <p className="text-lg text-gray-50 font-bold">Aditya Singh</p>
+            <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="/Committee/AVR.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Marta Clermont</p>
-            <p className="text-sm text-gray-800">Design Team Lead</p>
+          <p className="text-lg text-gray-50 font-bold">Aditya Vardhan Rai</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Anthony Geek</p>
-            <p className="text-sm text-gray-800">CTO, Lorem Inc.</p>
+          <p className="text-lg text-gray-50 font-bold">Anwesha Laha</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Alice Melbourne</p>
-            <p className="text-sm text-gray-800">Human Resources</p>
+          <p className="text-lg text-gray-50 font-bold">Arkaprabha Laha</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+            src="/Committee/KS.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Martin Garix</p>
-            <p className="text-sm text-gray-800">Bad boy</p>
+          <p className="text-lg text-gray-50 font-bold">Khushi Shaw</p>
+          <p className="text-sm text-gray-300">4th Year CSE-DS</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="/Committee/MT.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Andrew Larkin</p>
-            <p className="text-sm text-gray-800">Backend Developer</p>
+          <p className="text-lg text-gray-50 font-bold">Mahika Thakur</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Sophie Denmo</p>
-            <p className="text-sm text-gray-800">Designer UI/UX</p>
+          <p className="text-lg text-gray-50 font-bold">Meghana Choudhary</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            src="/Committee/RN.jpeg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Benedict Caro</p>
-            <p className="text-sm text-gray-800">Frontend Developer</p>
+          <p className="text-lg text-gray-50 font-bold">Rupsa Nandy</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Saptarshi Banik</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/SS.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Sidhhartha Shaw</p>
+          <p className="text-sm text-gray-300">4th Year CSE-DS</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/SD.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Sreejeeta Dutta</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Subhamoy Kundu Poddar</p>
+          <p className="text-sm text-gray-300">4th Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Anirban Chakraborty</p>
+          <p className="text-sm text-gray-300">3rd Year CSE-AIML</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/AB.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Ankita Banerjee</p>
+          <p className="text-sm text-gray-300">3rd Year CSE-DS</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/ASK.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Ariyen SK</p>
+          <p className="text-sm text-gray-300">3rd Year CSE-DS</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/KC.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Krittika Choudhuri</p>
+          <p className="text-sm text-gray-300">3rd Year CSE-AIML</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Monojit Das</p>
+          <p className="text-sm text-gray-300">3rd Year CSE-AIML</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/SK.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Sanchari Karati</p>
+          <p className="text-sm text-gray-300">3rd Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/ShSa.jpeg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Sreyasree Sasmal</p>
+          <p className="text-sm text-gray-300">3rd Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/AhBo.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Ahona Bose</p>
+          <p className="text-sm text-gray-300">2nd Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src=""
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Argha Kamal Saha</p>
+          <p className="text-sm text-gray-300">2nd Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/AKR.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Arijit Kumar Roy</p>
+          <p className="text-sm text-gray-300">2nd Year CSE</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
             className="object-cover w-20 h-20 mb-2 rounded-full shadow"
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            src="/Committee/RC.jpg"
             alt="Person"
           />
           <div className="flex flex-col items-center">
-            <p className="text-lg font-bold">Oliver Aguilerra</p>
-            <p className="text-sm text-gray-800">Product Manager</p>
+          <p className="text-lg text-gray-50 font-bold">Risob Chatterjee</p>
+          <p className="text-sm text-gray-300">2nd Year CSE</p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            className="object-cover w-20 h-20 mb-2 rounded-full shadow"
+            src="/Committee/SN.jpg"
+            alt="Person"
+          />
+          <div className="flex flex-col items-center">
+          <p className="text-lg text-gray-50 font-bold">Sayantika Nayak</p>
+          <p className="text-sm text-gray-300">2nd Year CSE-DS</p>
           </div>
         </div>
       </div>
