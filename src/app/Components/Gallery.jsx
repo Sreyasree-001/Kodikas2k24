@@ -14,9 +14,6 @@ export default function Gallery() {
                             <img src="/Gallery/1.png" alt="Image 1"/>
                         </div>
                         <div className="carousel-item">
-                            <img src="/Gallery/2.png" alt="Image 2"/>
-                        </div>
-                        <div className="carousel-item">
                             <img src="/Gallery/3.png" alt="Image 3"/>
                         </div>
                         <div className="carousel-item">
