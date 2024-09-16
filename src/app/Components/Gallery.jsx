@@ -1,10 +1,17 @@
 import Image from "next/image"
 import "./css/Gallery.css"
 
+/*import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { EffectCoverflow,Pagination,Navigation } from 'swiper/modules';*/
+
 export default function Gallery() {
     return (
         <>
-            <div id="gallery" className="gallery">
+        <div id="gallery" className="gallery">
                 <div className="title">
                     <h2>Gallery</h2>
                 </div>
