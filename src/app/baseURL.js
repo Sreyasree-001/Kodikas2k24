@@ -1,1 +1,1 @@
-export const baseURL = "URL HERE"
+export const baseURL = "https://kodikas2k24-backend.onrender.com/api/auth/register"
