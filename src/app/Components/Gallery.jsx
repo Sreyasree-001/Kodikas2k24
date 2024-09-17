@@ -43,7 +43,7 @@ export default function Gallery() {
             </div>
             <div className="teaser">
                 <video autoPlay muted preload loop>
-                    <source src="/Gallery/teaser.mp4"></source>
+                    <source src="/Gallery/teaser2.mp4"></source>
                 </video>
                 <div className="title">
                     <h2>Trailer</h2>
