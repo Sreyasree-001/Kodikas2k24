@@ -7,6 +7,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'slide-in': 'slideIn 1s ease-out',
+        'slide-out': 'slideOut 1s ease-in',
+      },
+      keyframes: {
+        slideIn: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideOut: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
