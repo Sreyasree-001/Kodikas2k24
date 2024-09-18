@@ -5,7 +5,7 @@ const Navbar = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="md:bg-gray-900 md:bg-opacity-70">
+    <div className="md:bg-gray-900 md:bg-opacity-70 z-50">
       <div className="px-4 py-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-8 lg:px-12 lg:py-2">
         <div className="relative flex items-center md:justify-center">
           <ul className="flex items-center hidden space-x-8 md:flex">
