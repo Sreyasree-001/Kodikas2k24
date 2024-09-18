@@ -13,7 +13,7 @@ export default function Gallery() {
         <>
         <div id="gallery" className="gallery">
         <div className="title">
-                    <h2 className="text-4xl font-bold font-custom">Galary</h2>
+                    <h2 className="text-4xl font-bold font-custom">Gallery</h2>
                 </div>
                 <div className="carousel">
                     <div className="carousel-inner">
