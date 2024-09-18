@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/EFCO/Brookshire/Regular.ttf') format('ttf'),
+       url('/fonts/EFCO/Brookshire/Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-custom {
+  font-family: 'CustomFont', sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

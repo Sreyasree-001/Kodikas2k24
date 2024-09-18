@@ -39,7 +39,7 @@ export default function register() {
 
   return (
     <>
-    <div className="w-full min-h-screen bg-[url('/bg4.jpg')] bg-cover bg-center bg-no-repeat 
+     <div className="pt-16 w-full min-h-screen z-5 bg-[url('/bg4.jpg')] bg-cover bg-center bg-no-repeat 
     flex flex-col items-center justify-center">
       <Navbar />
       <main className=" bg-transparent flex flex-col items-center justify-center min-h-screen py-10 w-2/3">

@@ -12,8 +12,8 @@ export default function Gallery() {
     return (
         <>
         <div id="gallery" className="gallery">
-                <div className="title">
-                    <h2>Gallery</h2>
+        <div className="title">
+                    <h2 className="text-4xl font-bold font-custom">Galary</h2>
                 </div>
                 <div className="carousel">
                     <div className="carousel-inner">
@@ -46,8 +46,9 @@ export default function Gallery() {
                     <source src="/Gallery/teaser2.mp4"></source>
                 </video>
                 <div className="title">
-                    <h2>Trailer</h2>
+                    <h2 className="text-4xl font-bold font-custom">Trailer</h2>
                 </div>
+
             </div>
         </>
     )
