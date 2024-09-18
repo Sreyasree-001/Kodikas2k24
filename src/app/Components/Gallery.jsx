@@ -45,10 +45,6 @@ export default function Gallery() {
                 <video autoPlay muted preload loop>
                     <source src="/Gallery/teaser2.mp4"></source>
                 </video>
-                <div className="title">
-                    <h2 className="text-4xl font-bold font-custom">Trailer</h2>
-                </div>
-
             </div>
         </>
     )
