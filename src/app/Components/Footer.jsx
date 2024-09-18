@@ -5,7 +5,7 @@ export default function Footer() {
           <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
             <p className="text-sm text-gray-500">
               © Copyright Kodikas 2k24. All rights reserved.
-              Developed by KODIKAS webdev team
+              Developed by KODIKAS Web Development team :D
             </p>
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
