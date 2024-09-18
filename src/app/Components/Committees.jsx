@@ -72,7 +72,7 @@ export default function Comittees() {
     },
     {
       name: 'Monojit Das',
-      image: '',
+      image: '/Committee/MD.jpg',
       year: '3rd Year CSE-AIML',
     },
     {
