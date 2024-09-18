@@ -8,7 +8,7 @@ const Header = () => {
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <img src="logo.png" alt="Logo" className="w-full max-w-xs mx-auto" />
             <p className="text-base text-gray-300 md:text-lg">
-              Organized by Computer Science & Engineering Department
+              Organized by the Computer Science & Engineering Department<br>of MCKV Institute of Engineering
             </p>
           </div>
           <div>
