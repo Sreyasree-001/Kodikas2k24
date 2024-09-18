@@ -1,162 +1,306 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-
-export default function Comittees() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const committeeMembers = [
-    {
-      name: 'Aditya Vardhan Rai',
-      image: '/Committee/AVR.jpg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Ahona Bose',
-      image: '/Committee/AhBo.jpg',
-      year: '2nd Year CSE',
-    },
-    {
-      name: 'Anirban Chakraborty',
-      image: '/Committee/AC.jpg',
-      year: '3rd Year CSE-AIML',
-    },
-    {
-      name: 'Ankita Banerjee',
-      image: '/Committee/AB.jpg',
-      year: '3rd Year CSE-DS',
-    },
-    {
-      name: 'Anwesha Laha',
-      image: '/Committee/AnL.jpg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Argha Kamal Saha',
-      image: '/Committee/AKS.jpg',
-      year: '2nd Year CSE',
-    },
-    {
-      name: 'Arijit Kumar Roy',
-      image: '/Committee/AKR.jpg',
-      year: '2nd Year CSE',
-    },
-    {
-      name: 'Ariyen SK',
-      image: '/Committee/ASK.jpg',
-      year: '3rd Year CSE-DS',
-    },
-    {
-      name: 'Arkaprabha Laha',
-      image: '/Committee/Arl.jpg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Khushi Shaw',
-      image: '/Committee/KS.jpg',
-      year: '4th Year CSE-DS',
-    },
-    {
-      name: 'Krittika Choudhuri',
-      image: '/Committee/KC.jpg',
-      year: '3rd Year CSE-AIML',
-    },
-    {
-      name: 'Mahika Thakur',
-      image: '/Committee/MT.jpg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Meghana Choudhary',
-      image: '/Committee/MC.jpg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Monojit Das',
-      image: '/Committee/MD.jpg',
-      year: '3rd Year CSE-AIML',
-    },
-    {
-      name: 'Risob Chatterjee',
-      image: '/Committee/RC.jpg',
-      year: '2nd Year CSE',
-    },
-    {
-      name: 'Rupsa Nandy',
-      image: '/Committee/RN.jpeg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Sanchari Karati',
-      image: '/Committee/SK.jpg',
-      year: '3rd Year CSE',
-    },
-    {
-      name: 'Sayantika Nayak',
-      image: '/Committee/SN.jpg',
-      year: '2nd Year CSE-DS',
-    },
-    {
-      name: 'Sidhhartha Shaw',
-      image: '/Committee/SS.jpg',
-      year: '4th Year CSE-DS',
-    },
-    {
-      name: 'Sreejeeta Dutta',
-      image: '/Committee/SD.jpg',
-      year: '4th Year CSE',
-    },
-    {
-      name: 'Sreyasree Sasmal',
-      image: '/Committee/ShSa.jpeg',
-      year: '2nd Year CSE',
-    },
-    {
-      name: 'Subhamoy Kundu Poddar',
-      image: '/Committee/SKP.jpg',
-      year: '4th Year CSE',
-    },
-    // Add more members here...
-  ];
-
-  // Duplicate the array to create an infinite loop effect
-  const extendedMembers = [...committeeMembers, ...committeeMembers, ...committeeMembers, ...committeeMembers, ...committeeMembers, ...committeeMembers];
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % committeeMembers.length);
-    }, 3000); // Change the image every 3 seconds
-
-    return () => clearInterval(intervalId);
-  }, [committeeMembers.length]);
-
+export const Committees = () => {
   return (
-    <div id="committee" className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-20 lg:px-8 lg:py-20">
-      <div className="mx-auto mb-10 lg:max-w-xl lg:text-center">
-        <p className="group group-hover:before:duration-500 lg:text group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-16 w-64 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg after:absolute after:z-10 after:w-20 after:h-20 after:content[''] after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
-          CORE TEAM
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
+        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-500 uppercase rounded-full bg-teal-accent-400">
+          Discover Our Team
         </p>
-        <br></br>
+        <p className="text-base text-gray-500 md:text-lg">
+          Meet The Team Behind the Dream.
+        </p>
       </div>
-      <div className="relative overflow-hidden">
-        <div className="flex w-full transition-transform duration-1000" style={{ transform: `translateX(-${(currentIndex + 1) * 100}%)` }}>
-          {extendedMembers.map((member, index) => (
-            <div
-              key={index}
-              className="flex-none w-1/4 px-2 flex flex-col items-center"
-            >
-              <img
-                className="object-cover w-32 h-32 mb-2 rounded-full shadow"
-                src={member.image}
-                alt="Person"
-              />
-              <div className="flex flex-col items-center">
-                <p className="text-lg text-gray-50 font-bold">{member.name}</p>
-                <p className="text-sm text-gray-300">{member.year}</p>
-              </div>
-            </div>
-          ))}
+      <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AVR.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Aditya Vardhan Rai</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AhBo.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Ahona Bose</p>
+            <p className="mb-5 text-xs text-stone-200">2nd Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AC.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Anirban Chakraborty</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE-AIML</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AB.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Ankita Banerjee</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE-DS</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AnL.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Anwesha Laha</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AKS.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Argha Kamal Saha</p>
+            <p className="mb-5 text-xs text-stone-200">2nd Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/AKR.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Arijit Kumar Roy</p>
+            <p className="mb-5 text-xs text-stone-200">2nd Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/ASK.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Ariyen SK</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE-DS</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/ArL.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Arkaprabha Laha</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/KS.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Khushi Shaw</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE-DS</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/KC.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Krittika Choudhuri</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE-AIML</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/MT.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Mahika Thakur</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/MC.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Meghana Choudhary</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/MD.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Monojit Das</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE-AIML</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/RC.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Risob Chatterjee</p>
+            <p className="mb-5 text-xs text-stone-200">2nd Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/RN.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Rupsa Nandy</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/SK.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Sanchari Karati</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/SN.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Sayantika Nayak</p>
+            <p className="mb-5 text-xs text-stone-200">2nd Year CSE-DS</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/SS.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Sidhhartha Shaw</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE-DS</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/SD.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Sreejeeta Dutta</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/ShSa.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Sreyasree Sasmal</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
+              src="/Committee/SKP.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Subhamoy Kundu Poddar</p>
+            <p className="mb-5 text-xs text-stone-200">4th Year CSE</p>
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Committees;
