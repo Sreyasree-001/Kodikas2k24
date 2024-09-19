@@ -56,11 +56,13 @@ export default function login() {
 
   return (
     <>
+    <div className="bg-black flex flex-col">
+    <div className='fixed md:self-center z-10'><Navbar/></div>
+    </div>
       <div
         className="w-full min-h-screen bg-[url('/bg6.jpg')] bg-cover bg-center bg-no-repeat 
     flex flex-col items-center justify-center"
       >
-        <Navbar />
         {dataLoaded ? (
           <>
             <div className="flex flex-col items-center justify-center min-h-screen py-10">
