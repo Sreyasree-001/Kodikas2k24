@@ -43,13 +43,15 @@ export default function register() {
 
   return (
     <>
+    <div className="bg-black flex flex-col">
+    <div className='fixed md:self-center z-10'><Navbar/></div>
+    </div>
       <div
         className="pt-16 w-full min-h-screen z-5 bg-[url('/bg8.jpg')] bg-cover bg-center bg-no-repeat 
     flex flex-col items-center justify-center"
       >
-        <Navbar />
         <main className=" bg-transparent flex flex-col items-center justify-center min-h-screen py-10 w-2/3">
-          <div className=" w-full mx-auto relative overflow-hidden z-10 bg-[#0a0a0a] p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
+          <div className=" w-full mx-auto relative overflow-hidden z-5 bg-[#0a0a0a] p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12">
             <h2 className="text-2xl font-bold text-white mb-6">
               Register Here
             </h2>
