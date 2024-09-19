@@ -26,7 +26,7 @@ const Navbar = (props) => {
                 title="About Event"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                About event (Coming Soon)
+                About event
               </a>
             </li>
             <li>
@@ -46,7 +46,7 @@ const Navbar = (props) => {
                 title="Committee"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Team & Sponsors
+                Our Team
               </a>
             </li>
             <li>
@@ -161,7 +161,7 @@ const Navbar = (props) => {
                           title="Committee"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Team & Sponsors
+                          Our Team
                         </a>
                       </li>
                       <li>

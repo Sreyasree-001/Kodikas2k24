@@ -17,7 +17,7 @@ export default function Home() {
       <div className=''>
         <Header/>
       </div>
-        {/* <AboutUs/> */} 
+        {/* <AboutUs/>  */}
         <Gallery/>
         <Comittees/>
         {/* <Sponsors/> */}
