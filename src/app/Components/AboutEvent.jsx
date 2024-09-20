@@ -22,53 +22,53 @@ const AboutEvent = () => {
         </p>
       </div>
       <div className="grid max-w-sm gap-5 mb-8 lg:grid-cols-3 sm:mx-auto lg:max-w-full">
-        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+        <div className="px-10 py-20 text-gray-400 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
           <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
             26 September, 2024<br/>2nd Half
           </p>
           <p
-            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors text-gray-400 duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 1"
           >
             Round 1
           </p>
           <br />
           <p
-            className="inline-flex items-center text-gray-400 font-semibold transition-colors duration-200"
+            className="inline-flex items-center font-semibold transition-colors duration-200"
           >
             Aptitude and Technical round, with a greater focus on the Technical questions. MCQ based round. Time : 30 minutes.<br></br>Top 20 teams will qualify for the 2nd Round.
           </p>
         </div>
-        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+        <div className="px-10 py-20 text-center text-gray-400 lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
           <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
             27 September, 2024<br/>2nd Half
           </p>
           <p
-            className="inline-block text-gray-400 max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 2"
           >
             Round 2
           </p>
           <br />
           <p
-            className="inline-flex text-gray-400 items-center font-semibold transition-colors duration-200"
+            className="inline-flex items-center font-semibold transition-colors duration-200"
           >
             Hackerrank Round. You have to solve 2 easy-medium level questions.<br/>Top 8 teams will qualify for the Final Round.
           </p>
         </div>
-        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+        <div className="px-10 py-20 text-center text-gray-400 lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
           <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
             27 September, 2024<br/>2nd Half
           </p>
           <p
-            className="inline-block text-gray-400 max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 3"
           >
             Round 3 (Final Round)
           </p>
           <br />
           <p
-            className="inline-flex text-gray-400 items-center font-semibold transition-colors duration-200"
+            className="inline-flex items-center font-semibold transition-colors duration-200"
           >
             It's a Surprise!!!🪄
           </p>
