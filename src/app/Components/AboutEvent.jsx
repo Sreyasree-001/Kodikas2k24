@@ -6,7 +6,7 @@ const AboutEvent = () => {
     >
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-sm font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p className="inline-block px-3 py-px mb-4 text-sm font-semibold tracking-wider text-teal-100 uppercase rounded-full bg-teal-accent-400">
             Kodikas Game Plan
           </p>
         </div>
@@ -22,71 +22,56 @@ const AboutEvent = () => {
         </p>
       </div>
       <div className="grid max-w-sm gap-5 mb-8 lg:grid-cols-3 sm:mx-auto lg:max-w-full">
-        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg after:absolute after:z-10 after:w-20 after:h-20 after:content[''] after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
-          <p className="mb-2 text-xs font-semibold tracking-wide text-gray-200 uppercase">
-            19 September
+        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+          <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
+            26 September, 2024<br/>2nd Half
           </p>
-          <a
-            href="/"
+          <p
             className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 1"
           >
             Round 1
-          </a>
+          </p>
           <br />
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+          <p
+            className="inline-flex items-center font-semibold transition-colors duration-200"
           >
-            Round 1 Details
-          </a>
+            Aptitude and Technical round, with a greater focus on the Technical questions. MCQ based round. Time : 30 minutes.<br></br>Top 20 teams will qualify for the 2nd Round.
+          </p>
         </div>
-        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg after:absolute after:z-10 after:w-20 after:h-20 after:content[''] after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
           <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
-            20 Nov 2020
+            27 September, 2024<br/>2nd Half
           </p>
-          <a
-            href="/"
+          <p
             className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            title="Well, the way they make shows is, they make one"
+            title="Round 2"
           >
-            Well, the way they make shows is, they make one
-          </a>
-          <p className="max-w-xs mx-auto mb-2 text-gray-700">
-            Some pilots get picked and become television programs. Some don't,
-            become nothing.
+            Round 2
           </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+          <br />
+          <p
+            className="inline-flex items-center font-semibold transition-colors duration-200"
           >
-            Read more
-          </a>
+            Hackerrank Round. You have to solve 2 easy-medium level questions.<br/>Top 8 teams will qualify for the Final Round.
+          </p>
         </div>
-        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group relative bg-neutral-800 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg after:absolute after:z-10 after:w-20 after:h-20 after:content[''] after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
+        <div className="px-10 py-20 text-center lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
           <p className="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
-            20 Nov 2020
+            27 September, 2024<br/>2nd Half
           </p>
-          <a
-            href="/"
+          <p
             className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            title="Pommy ipsum smeg head whizz morris himer due"
+            title="Round 3"
           >
-            Pommy ipsum smeg head whizz morris himer due
-          </a>
-          <p className="max-w-xs mx-auto mb-2 text-gray-700">
-            Taking the mick middle class bog roll bow ties are cool posh nosh
-            off t'shop, stew and dumps.
+            Round 3 (Final Round)
           </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+          <br />
+          <p
+            className="inline-flex items-center font-semibold transition-colors duration-200"
           >
-            Read more
-          </a>
+            It's a Surprise!!!🪄
+          </p>
         </div>
       </div>
     </div>
