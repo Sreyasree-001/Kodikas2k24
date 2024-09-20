@@ -24,7 +24,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-[url('/bg4.jpg')] bg-cover bg-center bg-no-repeat 
+    <div id='contact' className="w-full min-h-screen bg-[url('/bg4.jpg')] bg-cover bg-center bg-no-repeat 
     flex flex-col items-center justify-center">
     <form
       className="text-white w-80 max-w-full px-3 mx-auto mt-0 md:flex-0 shrink-0"
