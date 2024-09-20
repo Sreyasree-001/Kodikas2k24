@@ -27,14 +27,14 @@ const AboutEvent = () => {
             26 September, 2024<br/>2nd Half
           </p>
           <p
-            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors text-gray-400 duration-200 hover:text-deep-purple-accent-400"
             title="Round 1"
           >
             Round 1
           </p>
           <br />
           <p
-            className="inline-flex items-center font-semibold transition-colors duration-200"
+            className="inline-flex items-center text-gray-400 font-semibold transition-colors duration-200"
           >
             Aptitude and Technical round, with a greater focus on the Technical questions. MCQ based round. Time : 30 minutes.<br></br>Top 20 teams will qualify for the 2nd Round.
           </p>
@@ -44,14 +44,14 @@ const AboutEvent = () => {
             27 September, 2024<br/>2nd Half
           </p>
           <p
-            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block text-gray-400 max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 2"
           >
             Round 2
           </p>
           <br />
           <p
-            className="inline-flex items-center font-semibold transition-colors duration-200"
+            className="inline-flex text-gray-400 items-center font-semibold transition-colors duration-200"
           >
             Hackerrank Round. You have to solve 2 easy-medium level questions.<br/>Top 8 teams will qualify for the Final Round.
           </p>
@@ -61,14 +61,14 @@ const AboutEvent = () => {
             27 September, 2024<br/>2nd Half
           </p>
           <p
-            className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            className="inline-block text-gray-400 max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 3"
           >
             Round 3 (Final Round)
           </p>
           <br />
           <p
-            className="inline-flex items-center font-semibold transition-colors duration-200"
+            className="inline-flex text-gray-400 items-center font-semibold transition-colors duration-200"
           >
             It's a Surprise!!!🪄
           </p>
