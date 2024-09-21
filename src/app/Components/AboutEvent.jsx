@@ -30,13 +30,13 @@ const AboutEvent = () => {
             className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 1"
           >
-            Round 1
+            Round 1: Sorting Hat Ceremony
           </p>
-          <br />
+          <br/>
           <p
             className="inline-flex items-center font-semibold transition-colors duration-200"
           >
-            Aptitude and Technical round, with a greater focus on the Technical questions. MCQ based round. Time : 30 minutes.<br></br>Top 20 teams will qualify for the 2nd Round.
+            Sort the hats and secure your place among the Top 20 to enter the Triwizard Tournament! 🫨
           </p>
         </div>
         <div className="px-10 py-20 text-center text-gray-400 lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
@@ -47,13 +47,13 @@ const AboutEvent = () => {
             className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 2"
           >
-            Round 2
+            Round 2: Triwizard Tournament
           </p>
           <br />
           <p
             className="inline-flex items-center font-semibold transition-colors duration-200"
           >
-            Hackerrank Round. You have to solve 2 easy-medium level questions.<br/>Top 8 teams will qualify for the Final Round.
+            Compete like a wizard! Cast your best coding spells to reach the Top 8 and enter the Deathly Hallows! 🤩
           </p>
         </div>
         <div className="px-10 py-20 text-center text-gray-400 lg:px-5 lg:py-10 xl:py-20 group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 border rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg">
@@ -64,13 +64,13 @@ const AboutEvent = () => {
             className="inline-block max-w-xs mx-auto mb-3 text-2xl font-extrabold leading-7 transition-colors duration-200 hover:text-deep-purple-accent-400"
             title="Round 3"
           >
-            Round 3 (Final Round)
+            Round 3: Deathly Hallows
           </p>
           <br />
           <p
             className="inline-flex items-center font-semibold transition-colors duration-200"
           >
-            It's a Surprise!!!🪄
+            Show off every coding spell you’ve got to claim the title of Coding Potter Head! 😎
           </p>
         </div>
       </div>
