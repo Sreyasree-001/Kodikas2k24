@@ -4,8 +4,9 @@ export default function Footer() {
         <div className="px-4 pt-16 mb-4 md:mb-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
             <p className="text-sm text-gray-500">
-              © Copyright Kodikas 2k24. All rights reserved.
-              Developed by KODIKAS Web Development team :D
+                © Copyright Kodikas 2k24. All rights reserved.<br/> 
+                For any registration related query contact <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBncCGRlxlmRHMqvcwfdGCpqDKcGgJGPKcxPjCjWjrfJwhqMcBmXRddRCLpCkckXZlDbcxG">kodikas.cse@gmail.com</a> 📧<br/>
+                Developed by KODIKAS Web Development team 😊
             </p>
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
