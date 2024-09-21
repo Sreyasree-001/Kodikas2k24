@@ -289,6 +289,19 @@ export const Committees = () => {
           <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
             <img
               className="absolute object-cover w-full h-full rounded"
+              src="/Committee/SriSa.jpg"
+              alt="Person"
+            />
+          </div>
+          <div className="flex flex-col sm:text-center">
+            <p className="text-lg font-bold text-gray-200">Sristi Sarkar</p>
+            <p className="mb-5 text-xs text-stone-200">3rd Year CSE-DS</p>
+          </div>
+        </div>
+        <div>
+          <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              className="absolute object-cover w-full h-full rounded"
               src="/Committee/SKP.jpg"
               alt="Person"
             />
