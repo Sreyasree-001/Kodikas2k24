@@ -51,6 +51,16 @@ const Navbar = (props) => {
             </li>
             <li>
               <a
+                href="/#sponsors"
+                aria-label="Sponsors"
+                title="Sponsors"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+              >
+                Our Sponsors
+              </a>
+            </li>
+            <li>
+              <a
                 href="/#contact"
                 aria-label="Contact Us"
                 title="Contact Us"
@@ -162,6 +172,16 @@ const Navbar = (props) => {
                           className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Our Team
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="/#sponsors"
+                          aria-label="Sponsors"
+                          title="Sponsors"
+                          className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        >
+                          Our Sponsors
                         </a>
                       </li>
                       <li>
