@@ -20,7 +20,7 @@ export default function Home() {
         <AboutUs/>
         <Gallery/>
         <Comittees/>
-        {/* <Sponsors/> */}
+        <Sponsors/>
         <Contact/>
         <Footer/>
     </div>
